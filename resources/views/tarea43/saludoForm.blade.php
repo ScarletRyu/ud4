@@ -5,7 +5,9 @@
         <title>Tarea 4.1</title>
     </head>
     <body>
-        Kaixo {{$nombre}} {{$apellido}}!!
+        @foreach ($idiomas as $idioma)
+            <p>{{$idioma->saludo}} {{$nombre}}!!</p>
+        @endforeach
         <p><a href="/">Volver al menú de tareas</a></p>
     </body>
 </html>

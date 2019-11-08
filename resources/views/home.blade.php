@@ -12,9 +12,9 @@
             <div class="card">
                 <span class="titulo">Tarea 4.1</span>
                 <div class ="subtarea">
-                    <p><a href="contacto">a) Contacto</a></p>
-                    <p><a href="blog1/1">b) Blog con id</a></p>
-                    <p><a href="blog2/1/jon">c) Blog con id y nombre</a></p>
+                    <p><a href="contacto">A) Contacto</a></p>
+                    <p><a href="blog1/1">B) Blog con id</a></p>
+                    <p><a href="blog2/1/jon">C) Blog con id y nombre</a></p>
                 </div>
                 </div>
         </div>
@@ -23,9 +23,9 @@
             <div class="card">
                 <span class="titulo">Tarea 4.2</span>
                 <div class ="subtarea">
-                    <p><a href="{{route('saludo')}}">a) Saludo</a></p>
-                    <p><a href="{{route('saludoNombre',['nombre' => 'jon'])}}">b) Saludo con nombre</a></p>
-                    <p><a href="{{route('saludoNombreColor',['nombre' => 'jon','color' =>'FF00FF'])}}">c) Saludo con nombre y color</a></p>
+                    <p><a href="{{route('saludo')}}">A) Saludo</a></p>
+                    <p><a href="{{route('saludoNombre',['nombre' => 'jon'])}}">B) Saludo con nombre</a></p>
+                    <p><a href="{{route('saludoNombreColor',['nombre' => 'jon','color' =>'FF00FF'])}}">C) Saludo con nombre y color</a></p>
                 </div>
                 </div>
         </div>
@@ -34,13 +34,22 @@
             <div class="card">
                 <span class="titulo">Tarea 4.3</span>
                 <div class="subtarea">
-                <p><a href="#">a) Saludo nombre con apellido</a></p>
-                
+                <p><a href="{{route('createForm1')}}">A) Formulario con datos GET</a></p>
+                <p><a href="{{route('createForm2')}}">B) Formulario con datos POST</a></p>
+                <p><a href="{{route('createForm3')}}">C) Saludo vista form</a></p>
             </div>
                 </div>
         </div>
      
-
+        <div class="column">
+            <div class="card">
+                <span class="titulo">Tarea 4.4</span>
+                <div class="subtarea">
+                <p><a href="{{route('createForm4')}}">A) Formulario validacion</a></p>
+                <p><a href="{{route('createForm5')}}">B) Formulario validacion FormRequest</a></p>
+            </div>
+                </div>
+        </div>
     </div>
 
 </body>
